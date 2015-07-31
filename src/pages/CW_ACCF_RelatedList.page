@@ -1,0 +1,33 @@
+<apex:page standardController="IMC_Campaign_Activity__c" extensions="CW_IMC_Campaign_ControllerExt" showheader="true" sidebar="false" action="{!getFolderList}">
+<script>
+function launchWindow(recid) 
+{
+    var currentURL = window.location;
+    var newURL = '/apex/CW_NewFolder?cam=' + recid + '&retURL=' + currentURL;      
+    var newwind = window.open(newURL,'New Folder','height=600,width=600,location=yes');
+}
+function launchConWindow(recid) 
+{
+    var currentURL = window.location;
+    var newURL = '/apex/CW_NewFolder?cam=' + recid + '&con=1' + '&retURL=' + currentURL;             
+    var newwindow = window.open(newURL,'New Confidential Folder','height=600,width=600,location=yes');
+}
+</script>
+
+<apex:form >
+
+<apex:pageBlock >
+    <apex:pageBlockButtons location="top" > 
+        <apex:commandButton value="New Folder" onclick="launchWindow('{!campaignID}');" /> &nbsp; &nbsp; 
+        <apex:commandButton value="New Confidential Folder" onclick="launchConWindow('{!campaignID}');" /> 
+    </apex:pageBlockButtons> 
+    
+    <apex:pageBlockTable columns="2" var="fld" value="{!folderList}"  >
+        <apex:column headerValue="Confidential Folder Name" colspan="1" width="25%" >
+            <apex:commandLink action="{!URLFOR($Action.ConfidentialFolder__c.View,fld.Id)}" target="_blank" >{!fld.Name}</apex:commandLink>
+        </apex:column>  
+        <apex:column value="{!fld.Initiative__c}" colspan="1" width="25%" />    
+    </apex:pageBlockTable>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

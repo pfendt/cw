@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Associates a person to an Initiative and grants their User access to it and its associated child records.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>ConfidentialFolder__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Confidential Folder</label>
+        <referenceTo>ConfidentialFolder__c</referenceTo>
+        <relationshipLabel>Project Team Members</relationshipLabel>
+        <relationshipName>Project_Team_Members</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Initiative__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Initiative</label>
+        <referenceTo>IMC_Marketing_Campaign__c</referenceTo>
+        <relationshipLabel>Team Members</relationshipLabel>
+        <relationshipName>Project_Team_Members</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Project Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brand Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Content Excellence</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Connections / IMC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lead Creative Agency</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Connection Specialists</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Finance Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ad Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other Team Member</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Project_Team_Members</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Team Member</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Initiative__c</columns>
+        <columns>Role__c</columns>
+        <columns>User__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>PTM-{0000}</displayFormat>
+        <label>Team Member Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Team Members</pluralLabel>
+    <recordTypes>
+        <fullName>Campaign_Team_Member</fullName>
+        <active>true</active>
+        <description>Record type for adding Campaign Team member</description>
+        <label>Campaign Team Member</label>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Ad Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brand Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connection Specialists</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connections %2F IMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Content Excellence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Creative Agency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Team Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Sponsor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Folder_Team_Member</fullName>
+        <active>true</active>
+        <description>Team Member for box folder object</description>
+        <label>Folder Team Member</label>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Ad Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brand Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connection Specialists</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connections %2F IMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Content Excellence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Creative Agency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Team Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Sponsor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>Add_Project_Team_Member</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add Project Team Member</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)}
+
+
+// Custom Labels were used to store Name and Id for lookup field since theycannot normally be accessed by code. (RelatedCampaignName, RelatedCampaignID)
+// This will query to get RecordTypeId and construct URL to redirect user to Create new Team Member record with correct recordtype for Marketing Campaign
+
+var recType = sforce.connection.query(&quot;SELECT name,Id from RecordType Where SobjectType = &apos;CW_Team_Member__c&apos; and DeveloperName = &apos;Campaign_Team_Member&apos;&quot;);
+var records = recType.getArray(&quot;records&quot;);
+var recid = records[0].Id;
+
+var baseUrl = &apos;/{!$ObjectType.CW_Team_Member__c}/e?RecordType=&apos; + recid + &apos;&amp;{!$Label.RelatedCampaignName}={!IMC_Marketing_Campaign__c.Name}&amp;{!$Label.RelatedCampaignID}={!IMC_Marketing_Campaign__c.Id}&apos;;
+var retUrl = &apos;retURL={!IMC_Marketing_Campaign__c.Id}&apos;;
+var saveUrl = &apos;saveURL={!IMC_Marketing_Campaign__c.Id}&apos;;
+var url = baseUrl + &apos;&amp;&apos; + retUrl + &apos;&amp;&apos; + saveUrl;
+parent.window.location.href = url;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Add_Team_Member</fullName>
+        <availability>online</availability>
+        <description>Dynamic button that will add team member to campaign or private box folder.</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add Team Member to Private Folder</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)}
+
+// This will query to get RecordTypeId and construct URL to redirect user to Create new Team Member record with recordtype for ConfidentialFolder
+
+var recType = sforce.connection.query(&quot;SELECT name,Id from RecordType Where SobjectType = &apos;CW_Team_Member__c&apos; and DeveloperName = &apos;Folder_Team_Member&apos;&quot;);
+var records = recType.getArray(&quot;records&quot;);
+var recid = records[0].Id;
+
+var camp = &apos;{!ConfidentialFolder__c.Initiative__c}&apos;;
+var queryStr = &quot;SELECT name,Id from IMC_Marketing_Campaign__c WHERE Name = &apos;&quot; + camp + &quot;&apos; LIMIT 1&quot;;
+var campRec = sforce.connection.query(queryStr);
+var campRecs = campRec.getArray(&quot;records&quot;);
+var campId = campRecs[0].Id;
+
+var baseUrl = &apos;/apex/CW_NewFolderTeamMember?fld={!ConfidentialFolder__c.Id}&amp;cam=&apos; + campId;
+
+var retUrl = &apos;retURL={!ConfidentialFolder__c.Id}&apos;;
+
+var saveUrl = &apos;saveURL={!ConfidentialFolder__c.Id}&apos;;
+
+var url = baseUrl + &apos;&amp;&apos; + retUrl + &apos;&amp;&apos; + saveUrl;
+
+parent.window.location.href = url;</url>
+    </webLinks>
+</CustomObject>

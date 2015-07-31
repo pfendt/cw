@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Accelerate</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Accelerate</shortDescription>
+        <value>Accelerate</value>
+    </labels>
+    <labels>
+        <fullName>Attachment_Note</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attachment Note</shortDescription>
+        <value>Please Add Attachments on the Next Page</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Additional_Criteria</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Additional_Criteria</shortDescription>
+        <value>Additional Criteria</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Answer</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Answer</shortDescription>
+        <value>Answer :</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Answer_Required</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Answer Required</shortDescription>
+        <value>Sorry, this nomination could not be submitted. Please enter answers for all required criteria.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Answer_Saved_Notification</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Answer Saved Notification</shortDescription>
+        <value>Your input has been saved.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Approved_Recall_Notification</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Approved Recall Notification</shortDescription>
+        <value>Sorry, this nomination has already been submitted for judging and cannot be recalled or edited. If you have an update to your nomination, please contact sparkcity@coca-cola.com for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Attach_File</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Attach File</shortDescription>
+        <value>Click the &quot;Attach File&quot; button.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_AwardNomination_Is_Readonly_Notification</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI AwardNomination Is Readonly Notification</shortDescription>
+        <value>Sorry, this nomination has already been submitted. If you have further changes you\&apos;d like to make, please Recall your submission.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Business_Results</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Business_Results</shortDescription>
+        <value>Business Results</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Cancel_Confirmation</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Cancel Confirmation</shortDescription>
+        <value>Your changes will not be saved. Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Category</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Category:</shortDescription>
+        <value>Category:</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Category_Multiple_Match</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Category Multiple Match</shortDescription>
+        <value>Oops looks like there was an issue. Please email sparkcity@coca-cola.com for help</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Category_No_Match</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Category No Match</shortDescription>
+        <value>Oops looks like there was an issue. Please email sparkcity@coca-cola.com for help</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_CommentsSectionHeader</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_CommentsSectionHeader</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Criteria</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Criteria</shortDescription>
+        <value>Criterion :</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Done_Upload</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_Done_Upload</shortDescription>
+        <value>Done</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_General_Criteria</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_General_Criteria</shortDescription>
+        <value>General Criteria</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Geography</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_Geography:</shortDescription>
+        <value>Organization:</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Image_Upload_Header</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Image Upload Header</shortDescription>
+        <value>Attach File to Award Nomination</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_JudgingVoting_Contact_Not_Found_Msg</fullName>
+        <categories>AwardUI Judging Voting</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_JudgingVoting_Contact Not Found Msg</shortDescription>
+        <value>Hi — There’s nothing for you to vote for at this time. Thanks for visiting.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_JudgingVoting_DefaultIntroText</fullName>
+        <categories>AwardUI Judging Voting</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_JudgingVoting_DefaultIntroText</shortDescription>
+        <value>Welcome to Coke Award Nominations.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_JudgingVoting_Nomination_Not_Found_Msg</fullName>
+        <categories>AwardUI Judging Voting</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_JudgingVoting_Nomination Not Found Msg</shortDescription>
+        <value>Hi — There’s nothing for you to vote for at this time. Thanks for visiting.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_JudgingVoting_Nomination_Period_Over_Msg</fullName>
+        <categories>AwardUI Judging Voting</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_JudgingVoting_Nomination Period Over Msg</shortDescription>
+        <value>Hi — There’s nothing for you to vote for at this time. Thanks for visiting.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Lead_Brand</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Lead Brand:</shortDescription>
+        <value>Lead Brand:</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_MarketingAwards</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_MarketingAwards</shortDescription>
+        <value>Criteria &amp; Metrics</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Multimedia</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Multimedia</shortDescription>
+        <value>Multimedia</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_NominationSectionHeader</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_NominationSectionHeader</shortDescription>
+        <value>Nomination Details</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Nomination_Form</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Nomination_Form</shortDescription>
+        <value>Award Nomination Form</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Nomination_Submission_Success_Notification</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Nomination Submission Success Notification</shortDescription>
+        <value>Congratulations! Your nomination has been submitted for judging. Good luck!</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Proposed_Recall_Notification</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Proposed Recall Notification</shortDescription>
+        <value>Sorry, this nomination has not been submitted so it cannot be recalled.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_RatingSectionHeader</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_RatingSectionHeader</shortDescription>
+        <value>Rate this nomination - 10 indicates Best in Class</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Recall_Success_Notification</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Recall Success Notification</shortDescription>
+        <value>Your nomination has been recalled.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Required</shortDescription>
+        <value>Required</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_SaveAll_Confirmation</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI SaveAll Confirmation</shortDescription>
+        <value>All of your inputs will be saved. Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_SaveAll_Success_Notification</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI SaveAll Success Notification</shortDescription>
+        <value>Your nomination has been saved.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_SaveAndBack</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI SaveAndBack</shortDescription>
+        <value>Save &amp; Close</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_SaveAndBack_Confirmation</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI SaveAndBack Confirmation</shortDescription>
+        <value>All of your inputs will be saved and you will be taken back to nomination form. Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Save_Confirmation</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Save Confirmation</shortDescription>
+        <value>Your input will be saved. Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Select_the_File</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Select the File</shortDescription>
+        <value>Select the File</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Submit_Confirmation</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Submit Confirmation</shortDescription>
+        <value>Once you submit, you will no longer be able to update the nomination. Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Submit_Recall_Notification</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Submit Recall Notification</shortDescription>
+        <value>You are about to edit your submitted nomination. Are you sure you want to do this?</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Upload_Image</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_Upload_Image</shortDescription>
+        <value>Attach File</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_VoteSectionHeader</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_VoteSectionHeader</shortDescription>
+        <value>Would you like to select this nomination as one of your top three ?</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Vote_Error_Message</fullName>
+        <categories>AwardUI Vote Error Message - Voting Judging Detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Vote Error Message</shortDescription>
+        <value>Oh My!  You’ve attempted to select a fourth &quot;top 3&quot; finalist.  Please review your previous selections by using the Review Finalist button.</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_Webservice_Error</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI Webservice Error</shortDescription>
+        <value>Oops looks like there was an issue. Please email sparkcity@coca-cola.com for help</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_cancel</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_recall</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_recall</shortDescription>
+        <value>recall</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_saveAll</fullName>
+        <categories>AwardUI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AwardUI_saveAll</shortDescription>
+        <value>Save All</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_submit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_submit</shortDescription>
+        <value>submit</value>
+    </labels>
+    <labels>
+        <fullName>AwardUI_title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AwardUI_title</shortDescription>
+        <value>Awards Application</value>
+    </labels>
+    <labels>
+        <fullName>Awards_Judge_already_assigned_to_this_category</fullName>
+        <categories>Awards Assign Judge</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Awards_Judge already assigned to this category</shortDescription>
+        <value>Judge already assigned to this category.</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Action</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Add</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Add</shortDescription>
+        <value>ADD</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_AddCheckList</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_AddCheckList</shortDescription>
+        <value>Add Checklist Item</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_AnotherAction</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_AnotherAction</shortDescription>
+        <value>Another Action</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Assigned_By</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Assigned_By</shortDescription>
+        <value>Assigned By</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_BACK_TO_TOP</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_BACK_TO_TOP</shortDescription>
+        <value>BACK TO TOP</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Caa</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Caa</shortDescription>
+        <value>Conversion After Acceptance</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_CheckList_Placeholder</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_CheckList_Placeholder</shortDescription>
+        <value>Enter subject here...</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Contact</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Contact</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_CouncelorName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_CouncelorName</shortDescription>
+        <value>Councelor Name</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Credentials</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Credentials</shortDescription>
+        <value>Credentials</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Date_Due</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Date_Due</shortDescription>
+        <value>Date Due</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Date_Placeholder</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Date_Placeholder</shortDescription>
+        <value>MMDDYYYY</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Date_Received</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Date_Received</shortDescription>
+        <value>Date Received</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Edit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Edit</shortDescription>
+        <value>EDIT</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Log_Out</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Log Out</shortDescription>
+        <value>Log Out</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_New</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_New</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Notes</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Notes</shortDescription>
+        <value>Notes</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Recruitment</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Recruitment</shortDescription>
+        <value>Recruitment Events</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Settings</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Settings</shortDescription>
+        <value>Settings</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Status</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Subject</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_Title</shortDescription>
+        <value>Barry University Check List Management</value>
+    </labels>
+    <labels>
+        <fullName>BarUI_User</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>BarUI_User</shortDescription>
+        <value>Admission Councelor</value>
+    </labels>
+    <labels>
+        <fullName>Business_Impact</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Business Impact</shortDescription>
+        <value>Business Impact</value>
+    </labels>
+    <labels>
+        <fullName>Business_Model_Score</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Business Model Score</shortDescription>
+        <value>Business Model Score</value>
+    </labels>
+    <labels>
+        <fullName>Business_Unit</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Business Unit</shortDescription>
+        <value>Business Unit</value>
+    </labels>
+    <labels>
+        <fullName>Chatter_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter Message</shortDescription>
+        <value>has been shared with you on</value>
+    </labels>
+    <labels>
+        <fullName>Criterion</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Criterion:</shortDescription>
+        <value>Criterion:</value>
+    </labels>
+    <labels>
+        <fullName>DM_Community_User_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DM Community User ID</shortDescription>
+        <value>00ei0000001Eikn</value>
+    </labels>
+    <labels>
+        <fullName>Default_Account_Name_for_Picasso_Live_Chat</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Account Name for Picasso Live Chat</shortDescription>
+        <value>001i0000019g0tY</value>
+    </labels>
+    <labels>
+        <fullName>Default_Marketing_Template_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Marketing Template Id</shortDescription>
+        <value>a0m560000008XRH</value>
+    </labels>
+    <labels>
+        <fullName>Download_Strategic_Framework</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Download Strategic Framework</shortDescription>
+        <value>Download Strategic Framework</value>
+    </labels>
+    <labels>
+        <fullName>EPPM_User_Role_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EPPM User Role ID</shortDescription>
+        <value>00Ei0000000GESK</value>
+    </labels>
+    <labels>
+        <fullName>End_Date</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>End Date</shortDescription>
+        <value>End Date</value>
+    </labels>
+    <labels>
+        <fullName>Entertainment_Disclaimer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Entertainment Disclaimer</shortDescription>
+        <value>NOTE: Please allow 5 business days for Approval Processing.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Msg_On_User_Account_Improperly_Configured</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected User for Project Team Member does not have properly configured account</shortDescription>
+        <value>The selected User&apos;s Account is not properly configured.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Msg_On_User_Account_Not_Setup_For_Sharing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Team Member&apos;s User Account is not setup for sharing</shortDescription>
+        <value>The selected User&apos;s Account is not setup for sharing.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Msg_On_User_Not_Setup_For_Sharing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Team Member&apos;s User is not set up for sharing</shortDescription>
+        <value>The selected user is not setup for sharing.</value>
+    </labels>
+    <labels>
+        <fullName>Error_message_on_EditNeProgramRequest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_message_on_EditNeProgramRequest</shortDescription>
+        <value>All fields marked with a red bar are required.  Please complete all required fields.</value>
+    </labels>
+    <labels>
+        <fullName>Expand</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expand</shortDescription>
+        <value>Expand</value>
+    </labels>
+    <labels>
+        <fullName>External_Agency_Profile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>External Agency Profile</shortDescription>
+        <value>EPPM External User</value>
+    </labels>
+    <labels>
+        <fullName>File_type_alert_error_message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File type alert error message</shortDescription>
+        <value>This file type is not allowed.</value>
+    </labels>
+    <labels>
+        <fullName>Filter</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria</shortDescription>
+        <value>Filter Criteria</value>
+    </labels>
+    <labels>
+        <fullName>Financials</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Financials</shortDescription>
+        <value>Financials</value>
+    </labels>
+    <labels>
+        <fullName>Footer_Copyright_Line_1</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer Copyright Line 1</shortDescription>
+        <value>2014 The Coca-Cola Company.</value>
+    </labels>
+    <labels>
+        <fullName>Footer_Copyright_Line_2</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer Copyright Line 2</shortDescription>
+        <value>All rights reserved. Terms of Service</value>
+    </labels>
+    <labels>
+        <fullName>Footer_Language</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer Language</shortDescription>
+        <value>Language</value>
+    </labels>
+    <labels>
+        <fullName>General</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General</shortDescription>
+        <value>General</value>
+    </labels>
+    <labels>
+        <fullName>General_Disclaimer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General Disclaimer</shortDescription>
+        <value>NOTE: Please allow 10 business days for Approval Processing.</value>
+    </labels>
+    <labels>
+        <fullName>General_Disclaimer_End</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General Disclaimer End</shortDescription>
+        <value>business days for Approval Processing.</value>
+    </labels>
+    <labels>
+        <fullName>General_Disclaimer_Start</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General Disclaimer Start</shortDescription>
+        <value>NOTE: Please allow</value>
+    </labels>
+    <labels>
+        <fullName>Help_text</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help_text</shortDescription>
+        <value>Click here to upload thumbnail image</value>
+    </labels>
+    <labels>
+        <fullName>Home_Collaborate_Button</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Collaborate Button</shortDescription>
+        <value>Chatter</value>
+    </labels>
+    <labels>
+        <fullName>Home_Collaborate_Text</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Collaborate Text</shortDescription>
+        <value>Connect and share.</value>
+    </labels>
+    <labels>
+        <fullName>Home_Community_Button</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Community Button</shortDescription>
+        <value>Q&amp;A</value>
+    </labels>
+    <labels>
+        <fullName>Home_Community_Text</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Community Text</shortDescription>
+        <value>Stuck?  Curious?  Ask away.</value>
+    </labels>
+    <labels>
+        <fullName>Home_Help_Button</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Help Button</shortDescription>
+        <value>Help</value>
+    </labels>
+    <labels>
+        <fullName>Home_Help_Text</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Help Text</shortDescription>
+        <value>Get access or fix problems.</value>
+    </labels>
+    <labels>
+        <fullName>Home_Info_Button</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Info Button</shortDescription>
+        <value>About</value>
+    </labels>
+    <labels>
+        <fullName>Home_Info_Text</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Info Text</shortDescription>
+        <value>Overview, new stuff, and key contacts.</value>
+    </labels>
+    <labels>
+        <fullName>Home_Initial_Search_Text</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Initial Search Text</shortDescription>
+        <value>What do you need?</value>
+    </labels>
+    <labels>
+        <fullName>Home_Search_Button</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Search Button</shortDescription>
+        <value>?</value>
+    </labels>
+    <labels>
+        <fullName>Home_Search_Message</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Search Message</shortDescription>
+        <value>Learn, connect, and share about Design Machine.</value>
+    </labels>
+    <labels>
+        <fullName>Home_Success_Button</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Success Button</shortDescription>
+        <value>Success Stories</value>
+    </labels>
+    <labels>
+        <fullName>Home_Success_Text</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Success Text</shortDescription>
+        <value>Find out what works for others.</value>
+    </labels>
+    <labels>
+        <fullName>Home_Tutorial_Button</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Tutorial Button</shortDescription>
+        <value>Tools &amp; Tutorials</value>
+    </labels>
+    <labels>
+        <fullName>Home_Tutorial_Text</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Home Tutorial Text</shortDescription>
+        <value>Become a Design Machine pro.</value>
+    </labels>
+    <labels>
+        <fullName>Incremental_Profit</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Incremental Profit</shortDescription>
+        <value>Incremental Profit</value>
+    </labels>
+    <labels>
+        <fullName>Information_Hard_to_get</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Information Hard to get</shortDescription>
+        <value>Oh my! That information is playing hard to get. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Initialize</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Initialize</shortDescription>
+        <value>Initialize</value>
+    </labels>
+    <labels>
+        <fullName>Initiative_Name</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Initiative Name</shortDescription>
+        <value>Initiative Name</value>
+    </labels>
+    <labels>
+        <fullName>Invest</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invest</shortDescription>
+        <value>Invest</value>
+    </labels>
+    <labels>
+        <fullName>Job_Finalization_TV_Disclaimer_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Job Finalization TV Disclaimer 2</shortDescription>
+        <value>The following documents must be sent to Ivy Tombeck at Litchfield Entertainment for all commercials with original music, Email confirmation from Litchfield Entertainment that materials have been received.</value>
+    </labels>
+    <labels>
+        <fullName>Job_Finalization_TV_Discliamer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Job Finalization TV Discliamer</shortDescription>
+        <value>Per the specifications in the Agency Master Services Agreement and The Coca-Cola Company’s Broadcast Production Guidelines Manual, the following requirements have been met:</value>
+    </labels>
+    <labels>
+        <fullName>Legal_Disclaimer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Legal Disclaimer</shortDescription>
+        <value>NOTE: Requestor must obtain legal review for this Program Request.</value>
+    </labels>
+    <labels>
+        <fullName>MarketingActivityFieldId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MarketingActivityFieldId</shortDescription>
+        <value>CF00Ni000000EdXEw_lkid</value>
+    </labels>
+    <labels>
+        <fullName>MarketingCampaignFieldId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MarketingCampaignFieldId</shortDescription>
+        <value>CF00Ni000000EdXEz_lkid</value>
+    </labels>
+    <labels>
+        <fullName>MarketingCampaignId_On_Stage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketing Campaign input id on Campaign Stage standard page.</shortDescription>
+        <value>CF00Ni000000EdXD1_lkid</value>
+    </labels>
+    <labels>
+        <fullName>MarketingCampaignName_On_Stage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketing Campaign input name on Campaign Stage standard page.</shortDescription>
+        <value>CF00Ni000000EdXD1</value>
+    </labels>
+    <labels>
+        <fullName>MarketingStageFieldId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MarketingStageFieldId</shortDescription>
+        <value>CF00Ni000000EdXEx_lkid</value>
+    </labels>
+    <labels>
+        <fullName>MarketingStepFieldId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MarketingStepFieldId</shortDescription>
+        <value>CF00Ni000000EdXEy_lkid</value>
+    </labels>
+    <labels>
+        <fullName>Marketing_Form_Record_Type_Name_1</fullName>
+        <categories>Marketing Form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketing_Form_Record_Type_Name_1</shortDescription>
+        <value>Liquid and Linked Brief</value>
+    </labels>
+    <labels>
+        <fullName>Marketing_Form_Record_Type_Name_2</fullName>
+        <categories>Marketing Form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketing_Form_Record_Type_Name_2</shortDescription>
+        <value>Brand Business Brief</value>
+    </labels>
+    <labels>
+        <fullName>MultimediaToolContentTypeMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultimediaToolContentTypeMessage</shortDescription>
+        <value>Multimedia tool supports the following file formats:
+&lt;ul&gt;
+&lt;li&gt;Image: .jpg, .bmp, .gif, .png&lt;/li&gt;
+&lt;li&gt;Video: All Formats&lt;/li&gt;
+&lt;li&gt;Audio: All Formats&lt;/li&gt;
+&lt;li&gt;PDF: .pdf (unsecured)&lt;/li&gt;
+&lt;li&gt;Other: .doc, .docx, .xls, .xlsx, .csv, .ppt, .pptx&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>No_Invoices_are_available</fullName>
+        <categories>Purchase Order and Invoices Viewer</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Invoices are available</shortDescription>
+        <value>No Invoices are available for this Purchase Order.</value>
+    </labels>
+    <labels>
+        <fullName>No_Purchase_Order_Available</fullName>
+        <categories>Purchase Order and Invoices Viewer</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Purchase Order Available</shortDescription>
+        <value>No Purchase Order available.</value>
+    </labels>
+    <labels>
+        <fullName>No_Records_Found</fullName>
+        <categories>Sustainabilty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Records Found</shortDescription>
+        <value>No Records Found</value>
+    </labels>
+    <labels>
+        <fullName>No_Sustainability_Metric_Record_Found</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Sustainability Metric Record Found</shortDescription>
+        <value>No Sustainability Metric Record found, so can&apos;t add year columns.</value>
+    </labels>
+    <labels>
+        <fullName>Nomination_Form</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Nomination Form</shortDescription>
+        <value>Award Nomination Form</value>
+    </labels>
+    <labels>
+        <fullName>Non_Supportive_File_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Non Supportive File Message</shortDescription>
+        <value>Viewer Does Not Support this File Type.</value>
+    </labels>
+    <labels>
+        <fullName>ORG_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ORG_ID</shortDescription>
+        <value>00D19000000DLro</value>
+    </labels>
+    <labels>
+        <fullName>Org_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ORG_URL</shortDescription>
+        <value>https://smkt--sbtestimc.cs24.my.salesforce.com/</value>
+    </labels>
+    <labels>
+        <fullName>P_L_Summary</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P_L_Summary</shortDescription>
+        <value>Post Launch</value>
+    </labels>
+    <labels>
+        <fullName>P_L_Summary_Error</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P_L_Summary_Error</shortDescription>
+        <value>This sustainability initiative must be approved as an active initiative prior to accessing the Post Launch page.</value>
+    </labels>
+    <labels>
+        <fullName>Picasso_Agent_Offline_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Picasso Agent Offline Text</shortDescription>
+        <value>Our Agents in this Business Area are currently offline.</value>
+    </labels>
+    <labels>
+        <fullName>Picasso_Agent_Offline_Text_As_Link</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Picasso Agent Offline Text As Link</shortDescription>
+        <value>Click here to contact a member of the Picasso team</value>
+    </labels>
+    <labels>
+        <fullName>Picasso_Alert_Text_For_Accepting_Terms_Conditions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Picasso Alert Text For Accepting Terms &amp; Conditions</shortDescription>
+        <value>To chat with a Picasso expert, you must agree to the terms and conditions.</value>
+    </labels>
+    <labels>
+        <fullName>Picasso_Alert_Text_For_Url_Parmeters_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Picasso Alert Text For Url Parmeters Validation</shortDescription>
+        <value>Chat could not be intitiated. User Authentication failed. Please close the window and try again</value>
+    </labels>
+    <labels>
+        <fullName>Picasso_PreChat_Link_Live_Agent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Picasso PreChat Link Live Agent</shortDescription>
+        <value>https://partner.coca-cola.com/sites/picasso/sitepages/contact.aspx</value>
+    </labels>
+    <labels>
+        <fullName>Pillar</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pillar</shortDescription>
+        <value>Pillar</value>
+    </labels>
+    <labels>
+        <fullName>Planning_Year</fullName>
+        <categories>Sustainabilty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Planning Year</shortDescription>
+        <value>Planning Year</value>
+    </labels>
+    <labels>
+        <fullName>Portfolio</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portfolio</shortDescription>
+        <value>Portfolio</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Impact_Area_Element</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary Impact Area Element</shortDescription>
+        <value>Primary Impact Area Element</value>
+    </labels>
+    <labels>
+        <fullName>Printable_View</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Printable View</shortDescription>
+        <value>Printable View</value>
+    </labels>
+    <labels>
+        <fullName>Production_Estimate_Legal_Notice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Production Estimate Legal Notice</shortDescription>
+        <value>This Production Estimate may be used to document production expenses anticipated by {{AGENCY}} (“Agency”) in connection with direct advertising expenses under The Master Agency Services Agreement For Creative, Media, Interactive, Promotions, Experiential, and Public Relations Services  (&quot;Agreement&quot;) between The Coca-Cola Company (&quot;Company&quot;), and Agency, the terms and conditions of which are incorporated herein by this reference</value>
+    </labels>
+    <labels>
+        <fullName>Program</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Program</shortDescription>
+        <value>Program</value>
+    </labels>
+    <labels>
+        <fullName>Rank</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rank</shortDescription>
+        <value>Rank</value>
+    </labels>
+    <labels>
+        <fullName>RelatedCampaignID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CW Related Campaign ID</shortDescription>
+        <value>CF00Ni000000FN8uv_lkid</value>
+    </labels>
+    <labels>
+        <fullName>RelatedCampaignName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CW Related Campaign Name</shortDescription>
+        <value>CF00Ni000000FN8uv</value>
+    </labels>
+    <labels>
+        <fullName>RelatedFolderID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CW Related Folder ID</shortDescription>
+        <value>CF00N56000000GJML_lkid</value>
+    </labels>
+    <labels>
+        <fullName>RelatedFolderName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CW Related Folder Name</shortDescription>
+        <value>CF00N56000000GJML</value>
+    </labels>
+    <labels>
+        <fullName>Reputation</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reputation</shortDescription>
+        <value>Reputation</value>
+    </labels>
+    <labels>
+        <fullName>Reviewer_Default_Admin</fullName>
+        <categories>Reviewer</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reviewer Default Admin</shortDescription>
+        <value>Fran Chandler-Smith</value>
+    </labels>
+    <labels>
+        <fullName>Reviewer_User</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reviewer User</shortDescription>
+        <value>This user is already a reviewer on this request.</value>
+    </labels>
+    <labels>
+        <fullName>Revisit</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Revisit</shortDescription>
+        <value>Revisit</value>
+    </labels>
+    <labels>
+        <fullName>Risk</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Risk</shortDescription>
+        <value>Risk</value>
+    </labels>
+    <labels>
+        <fullName>SAP_Campaign_Order_Missing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SAP Campaign Order Missing</shortDescription>
+        <value>Looks like this record is missing SAP Campaign ID or SAP Order number.</value>
+    </labels>
+    <labels>
+        <fullName>SAP_Vendor_Number_Missing</fullName>
+        <categories>Purchase Order and Invoices Viewer</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SAP Vendor Number Missing</shortDescription>
+        <value>SAP Vendor Number is missing on the Agency&apos;s Account Record.</value>
+    </labels>
+    <labels>
+        <fullName>SI_Exit</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SI_Exit</shortDescription>
+        <value>Close Initiative</value>
+    </labels>
+    <labels>
+        <fullName>SSO_Error_Line_1A</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSO Error Line 1A</shortDescription>
+        <value>Hi there, it seems you are not signed in. Please access</value>
+    </labels>
+    <labels>
+        <fullName>SSO_Error_Line_1B</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSO Error Line 1B</shortDescription>
+        <value>then try your link again.</value>
+    </labels>
+    <labels>
+        <fullName>SSO_Error_Line_1_Link</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSO Error Line 1 Link</shortDescription>
+        <value>http://support.coca-coladesignmachine.com</value>
+    </labels>
+    <labels>
+        <fullName>SSO_Error_Line_2A</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSO Error Line 2A</shortDescription>
+        <value>Need help accessing? Go to</value>
+    </labels>
+    <labels>
+        <fullName>SSO_Error_Line_2B</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSO Error Line 2B</shortDescription>
+        <value>.</value>
+    </labels>
+    <labels>
+        <fullName>SSO_Error_Line_2_Link</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSO Error Line 2 Link</shortDescription>
+        <value>http://support.coca-coladesignmachine.com/public</value>
+    </labels>
+    <labels>
+        <fullName>SSO_Login_Error_Label</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSO Login Error Label</shortDescription>
+        <value>Login Error</value>
+    </labels>
+    <labels>
+        <fullName>SSO_Login_Error_Message</fullName>
+        <categories>Design Machine</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSO Login Error Message</shortDescription>
+        <value>Your login attempt using single sign-on with an identity provider certificate has failed. Please contact technical support for more information.</value>
+    </labels>
+    <labels>
+        <fullName>Same_Size_Bubbles</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Same Size Bubbles</shortDescription>
+        <value>None (all bubbles will be represented with the same size)</value>
+    </labels>
+    <labels>
+        <fullName>Select_Bubble_Size</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Bubble Size</shortDescription>
+        <value>Select Bubble Size</value>
+    </labels>
+    <labels>
+        <fullName>Service_Unavailable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service_Unavailable</shortDescription>
+        <value>We apologize, but this information isn’t available at this time. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Soap_Empty_Result_c</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Soap_Empty_Result__c</shortDescription>
+        <value>There is no data for this request.</value>
+    </labels>
+    <labels>
+        <fullName>Societal</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Societal</shortDescription>
+        <value>Societal</value>
+    </labels>
+    <labels>
+        <fullName>Societal_Impact</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Societal Impact</shortDescription>
+        <value>Societal Impact</value>
+    </labels>
+    <labels>
+        <fullName>Societal_Model_Score</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Societal Model Score</shortDescription>
+        <value>Societal Model Score</value>
+    </labels>
+    <labels>
+        <fullName>Start_Date</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start Date</shortDescription>
+        <value>Start Date</value>
+    </labels>
+    <labels>
+        <fullName>State</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>State</shortDescription>
+        <value>State</value>
+    </labels>
+    <labels>
+        <fullName>Status</fullName>
+        <categories>Sustainabilty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework</shortDescription>
+        <value>Strategic Framework</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Destination_Setting</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework Destination Setting</shortDescription>
+        <value>Destination Setting</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Execution</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Execution</shortDescription>
+        <value>&lt;b&gt;Sustainability Integration&lt;/b&gt;&lt;br/&gt;For each Sustainability Initiative:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Clarify role sort:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;KO&lt;/li&gt;&lt;li&gt;Bottler&lt;/li&gt;&lt;li&gt;Implementing Partner or Vendor or Supplier&lt;/li&gt;&lt;li&gt;Customer (as relevant)&lt;/li&gt;&lt;li&gt;Etc.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Align on metrics, tracking, and audit (as required)&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Summary plan of key Sustainability initiatives by SFA, including what will be done, by whom, when, how funded, and key metrics&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_External_Analysis</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework External Analysis</shortDescription>
+        <value>&lt;b&gt;Sustainability Questions to Ask:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;Are macro forces/trends identified by the Global Chief Sustainability Office (CSO) aligned with those identified at the Group?&lt;/li&gt;&lt;li&gt;Do we have additional local macro forces/ trends impacting the Group?&lt;/li&gt;&lt;li&gt;Which Sustainability Focus Areas (SFAs) will address identified global and local forces/trends?&lt;/li&gt;&lt;li&gt;Who are the Key Stakeholders - both Internal and External?&lt;/li&gt;&lt;li&gt;What key Sustainability concerns, issues, opportunities, or insights exist for the Key Internal and External Stakeholders?&lt;/li&gt;&lt;li&gt;Which &lt;u&gt;Key Sustainability Issues&lt;/u&gt; or concerns should be prioritized based on:&lt;/li&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Top 2 Key Stakeholders OR&lt;/li&gt;&lt;li&gt;Impact: economic &amp; social (if data and capability allow)&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;li&gt;For each Prioritized Sustainability Issue, which SFA (or SFAs) covers or addresses the issue?&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs for Sustainability Planning:&lt;/b&gt;&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_External_Analysis_2</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework External Analysis 2</shortDescription>
+        <value>&lt;ul&gt;&lt;li&gt;List of top 3 relevant Global macro forces/ trends, top 3 local forces/ trends, and the corresponding SFAs that could help address the trends.&lt;/li&gt;&lt;li&gt;Map of Key Stakeholders with list of top 2 Sustainability issues per Key Stakeholder. Top 3 corresponding SFAs that could help address the Prioritized Sustainability Issues identified&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Functional_Strategies</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Functional_Strategies</shortDescription>
+        <value>&lt;b&gt;Sustainability Integration&lt;/b&gt;&lt;ul&gt;&lt;li&gt;For each SFA , identify the key initiatives, programs, interventions, or projects that can be implemented to address it&lt;/li&gt;&lt;li&gt;If a &lt;u&gt;Key Sustainability Issue&lt;/u&gt; or &lt;u&gt;SFA&lt;/u&gt; (or mandatory commitment) is not covered by any of the Plans, consider implementing a relevant philanthropic or Foundation program to address it&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;List of Sustainability initiatives that can be deployed to address each SFA&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Immersion</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Immersion</shortDescription>
+        <value>&lt;b&gt;Sustainability Integration&lt;/b&gt;&lt;ul&gt;&lt;li&gt;For any macro forces or trends from Phase One not addressed by any of the SFAs, conduct a deep-dive to identify local and Global best practices to address it&lt;/li&gt;&lt;li&gt;For mandatory SFAs without initiatives, determine local and Global best practices for addressing it&lt;/li&gt;&lt;li&gt;What work still needs to be done for the WIP mandatory SFA&apos;s?&lt;/li&gt;&lt;li&gt;Are there any initiatives that can be culled, or moved to next year?&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;List of Sustainability interventions or programs that could address prioritized SFAs/trends&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Implementation</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework Implementation</shortDescription>
+        <value>Implementation</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Indentification</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Indentification</shortDescription>
+        <value>&lt;b&gt;Sustainability Questions to Ask:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;For each Sustainability initiative, which Sustainability pillar (ME / WE / WORLD) can they be allocated to?&lt;/li&gt;&lt;li&gt;Are there initiatives across the 3 pillars that are allocated to the same SFA e.g. are there different initiatives listed under ME, WE, WORLD, but they all relate to packaging?&lt;/li&gt;&lt;li&gt;Which initiatives can be clustered /linked together to achieve synergies ?&lt;/li&gt;&lt;li&gt;For each clustered / singular initiative, what SFA can they be allocated to?&lt;/li&gt;&lt;li&gt;Are there any initiatives that can not be allocated to a SFA?&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs for Sustainability Planning:&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;All like-with-like initiatives are clustered and allocated to one SFA under a Sustainability Pillar&lt;/li&gt;&lt;li&gt;List initiatives that can not be allocated to an SFA&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Internal_Analysis</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework Internal Analysis</shortDescription>
+        <value>&lt;b&gt;Sustainability Questions to Ask:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;Is there clarity on which Sustainability Focus Areas (SFAs) drive which key component of the EP model?&lt;/li&gt;&lt;li&gt;Who are the Key Stakeholders - both Internal and External?&lt;/li&gt;&lt;li&gt;What key Sustainability concerns, issues, opportunities, or insights exist for the Key Internal and External Stakeholders?&lt;/li&gt;&lt;li&gt;Which &lt;u&gt;Key Sustainability Issues&lt;/u&gt; or concerns should be prioritized based on:&lt;/li&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Top 2 Key Stakeholders OR&lt;/li&gt;&lt;li&gt;Impact: economic &amp; social (if data and capability allow)&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;li&gt;For each Prioritized Sustainability Issue, which SFA (or SFAs) covers or addresses the issue?&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs for Sustainability Planning:&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;List of the Group&apos;s prioritized EP drivers, and the corresponding, principle SFA that will help in delivering each prioritized EP driver.&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Plans</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Plans</shortDescription>
+        <value>&lt;b&gt;Sustainability Integration&lt;/b&gt;&lt;ul&gt;&lt;li&gt;For each Sustainability Initiative(s) selected to support activation of the Prioritized Opportunity,determine:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Investment required&lt;/li&gt;&lt;li&gt;Aligned System funding&lt;/li&gt;&lt;li&gt;Implementing partners&lt;/li&gt;&lt;li&gt;Possible external sources of funding&lt;/li&gt;&lt;li&gt;Communication or plan to leverage&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Prioritization</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Prioritization</shortDescription>
+        <value>&lt;b&gt;Sustainability Questions to Ask:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;Identify for the BU for all SFAs, which are: mandatory, a priority but not mandatory, a BU specific commitment?&lt;/li&gt;&lt;li&gt;For mandatory SFAs, which are in place, which are WIP?Are there any mandatory SFAs not in place?&lt;/li&gt;&lt;li&gt;Are there SFAs in place for each of the prioritized SFAs identified in the Destination Phase that address &lt;u&gt;Macro/Local Forces+Key Stakeholder Issues+EP Drivers+Strategic Issues?&lt;/u&gt;&lt;/li&gt;&lt;li&gt;For initiatives not allocated to an SFA and that are not mandatory or a local priority, which can be allocated to a foundation, which can be eliminated,which can be carried forward to next year?&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs for Sustainability Planning:&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Matrix of SFAs+initiatives(classified into ME/WE/WORLD pillars)with mandatory vs. local commitments called out&lt;/li&gt;&lt;li&gt;List of prioritized SFAs identified in Destination phase not in matrix&lt;/li&gt;&lt;li&gt;List of initiatives that can be carried forward to the next year&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Prioritization_Development</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework Prioritization Development</shortDescription>
+        <value>Opportunity and Prioritization Development</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Screening</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Screening</shortDescription>
+        <value>&lt;b&gt;Sustainability Questions to Ask:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;What sustainability initiatives are planned, proposed, in progress in my function?&lt;/li&gt;&lt;li&gt;What capital expenditure is planned that relates to a Sustainability initiative?&lt;/li&gt;&lt;li&gt;What sustainability initiatives have Bottlers planned, proposed or have in progress?&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs for Sustainability Planning:&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;List of ALL sustainability initiatives across ALL functions, including capital expenditure initiatives&lt;/li&gt;&lt;li&gt;Build in a step or action (or somewhere in the Phase) to bring together the screening of current initiatives with the prioritized SFAs from the Destination Phase to see where there are gaps.&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Strategic_Corridors</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Strategic_Corridors</shortDescription>
+        <value>&lt;b&gt;Sustainability Integration&lt;/b&gt;&lt;ul&gt;&lt;li&gt;For each Prioritized Opportunity from the S&amp;BP Process, identify which SFA(s):&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Are most relevant to the key Consumer group targeted;&lt;/li&gt;&lt;li&gt;Can be activated in an efficient and impactful way to connect with the Consumer group&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Ensure that prioritized SFAs from the Immersion Step are allocated to Prioritized Opportunities&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;List of Prioritized Opportunities and the relevant SFA(s) to support&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Strategy_Development</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework Strategy Development</shortDescription>
+        <value>Strategy Development</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Strategy_Review</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic Framework Strategy Review</shortDescription>
+        <value>&lt;b&gt;Sustainability Questions to Ask:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;For the Key Strategic Issues, what is the relevant intersection with a Sustainability Focus Area (SFA)?&lt;/li&gt;&lt;li&gt;Can Key Strategic Issues be identified that are not addressed by any of the SFAs?&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs for Sustainability Planning:&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;List of key Strategic Issues for the Group, and the top 3 corresponding SFAs that could help in addressing each Key Strategic Issue&lt;/li&gt;&lt;li&gt;List of Key Strategic Issues not addressed by any of the SFAs&lt;/li&gt;&lt;li&gt;Recap of Global and Group Sustainability Targets/Commitments/Priorities&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Strategic_Framework_Tracking</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Strategic_Framework_Tracking</shortDescription>
+        <value>&lt;b&gt;Sustainability Integration&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Integrate relevant Sustainability commitments into overall business scorecard&lt;/li&gt;&lt;li&gt;Track against global commitments (WIP)&lt;/li&gt;&lt;li&gt;Report against Scorecard (WIP from Global)&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Key Outputs&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Scorecard to track plans&lt;/li&gt;&lt;li&gt;Scorecard to track against Global commitments&lt;/li&gt;&lt;li&gt;Scorecard capability in VCM to be used (if available)&lt;/li&gt;&lt;/ul&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Summary</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Summary</shortDescription>
+        <value>Summary</value>
+    </labels>
+    <labels>
+        <fullName>TV_Job_Finalization_Legal_Disclaimer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TV Job Finalization Legal Disclaimer</shortDescription>
+        <value>By submitting for approval, I certify that all of the above requirements have been fulfilled. I understand that final payment for this production project will not be made until all of the above requirements have been satisfied.</value>
+    </labels>
+    <labels>
+        <fullName>Total</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Total_BU_Investment</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total BU Investment</shortDescription>
+        <value>Total BU Investment</value>
+    </labels>
+    <labels>
+        <fullName>Total_Bottler_Investment</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Bottler Investment</shortDescription>
+        <value>Bottler Investment</value>
+    </labels>
+    <labels>
+        <fullName>Total_Bottler_Investment_Var</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Bottler Investment Var</shortDescription>
+        <value>Total Bottler Investment</value>
+    </labels>
+    <labels>
+        <fullName>Total_Company_Investment</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Company Investment</shortDescription>
+        <value>Company Investment</value>
+    </labels>
+    <labels>
+        <fullName>Total_Company_Investment_Var</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Company Investment Var</shortDescription>
+        <value>Total Company Investment</value>
+    </labels>
+    <labels>
+        <fullName>Total_Foundation_Investment</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Foundation Investment</shortDescription>
+        <value>Foundation Investment</value>
+    </labels>
+    <labels>
+        <fullName>Total_Impact</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Impact</shortDescription>
+        <value>Total Impact</value>
+    </labels>
+    <labels>
+        <fullName>Total_Investment</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Investment</shortDescription>
+        <value>Total Investment</value>
+    </labels>
+    <labels>
+        <fullName>Total_Savings</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Savings</shortDescription>
+        <value>Total Savings</value>
+    </labels>
+    <labels>
+        <fullName>Total_Third_Party_Investment</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Third Party Investment</shortDescription>
+        <value>Third Party Investment</value>
+    </labels>
+    <labels>
+        <fullName>Training_Folder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Folder Link</shortDescription>
+        <value>https://coke.box.com/s/jdwolxgv51lf8iatqw6e0v4n9e1sm3jy</value>
+    </labels>
+    <labels>
+        <fullName>University_Disclaimer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>University Disclaimer</shortDescription>
+        <value>NOTE: Please allow 20 business days for Approval Processing.</value>
+    </labels>
+    <labels>
+        <fullName>Unsupported_File_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unsupported File Type</shortDescription>
+        <value>Download the file to view it.
+Click comment to view and/or add user comments on file.</value>
+    </labels>
+    <labels>
+        <fullName>VersionDeleteMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VersionDeleteMessage</shortDescription>
+        <value>Are you sure? There is no undo!</value>
+    </labels>
+    <labels>
+        <fullName>Visualization</fullName>
+        <categories>Sustainability</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visualization</shortDescription>
+        <value>Prioritization Output</value>
+    </labels>
+    <labels>
+        <fullName>WS_SOAP_Fault_Error_Message_c</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WS_SOAP_Fault_Error_Message__c</shortDescription>
+        <value>Internal Error. SAP has problem. Please try later.</value>
+    </labels>
+    <labels>
+        <fullName>Welcome_Message</fullName>
+        <categories>CokeWorks Training Page Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Message</shortDescription>
+        <value>&quot;Your welcome message Your welcome message Your welcome message Your welcome message Your welcome message Your welcome message message message message&quot;</value>
+    </labels>
+    <labels>
+        <fullName>Welcome_Title</fullName>
+        <categories>CokeWorks Training Page Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Title</shortDescription>
+        <value>Welcome</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,57 @@
+<apex:page standardController="ConfidentialFolder__c" extensions="CW_Folder_ControllerExt">
+<script>
+function reloadParentAndClose()
+{
+    // reload the opener or the parent window
+    //console.log(navigator.browserInfo.browser);
+    window.opener.location.reload();
+    // then close this pop-up window
+    window.close();
+} 
+function closeWindow() 
+{ 
+    //console.log(navigator.browserInfo.browser); 
+    window.opener.location.reload(); 
+    window.close();
+}
+navigator.browserInfo= (function(){
+    var ua= navigator.userAgent, tem,
+    M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+    if(/trident/i.test(M[1])){
+        tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+        return 'IE '+(tem[1] || '');
+    }
+    if(M[1]=== 'Chrome'){
+        tem= ua.match(/\b(OPR|Edge)\/(\d+)/);
+        if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+    }
+    M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+    if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+    return { 'browser': M[0], 'version': M[1] };
+})();
+</script>
+  <apex:form id="theForm">
+   <apex:pageMessages />
+    
+   <apex:pageBlock title="{!title}">
+
+         
+      <apex:pageBlockButtons location="bottom" id="THEBLOCK">
+          <apex:commandButton ID="FOLDERBUTTON" onclick="saveFolderJS();alert('Successfully created folder');reloadParentAndClose();return false;" oncomplete="closeWindow();" value="Save" rendered="{!NOT(confidential)}"/> &nbsp; &nbsp;
+<!--          <apex:commandButton onclick="saveFolderJS();return false;"  value="Save" rendered="{!confidential}"/> &nbsp; &nbsp; -->
+              <apex:commandButton action="{!saveFolder}"  value="Save" rendered="{!confidential}"/> &nbsp; &nbsp; 
+          <apex:commandButton onclick="closeWindow();" value="Cancel"/>
+      </apex:pageBlockButtons>
+   
+      <apex:pageBlockSection columns="1">
+             <apex:inputField value="{!folder.Name}" label="Folder Name" required="true"/> 
+             <apex:inputField value="{!folder.Initiative__c}"/> 
+      </apex:pageBlockSection>
+
+   </apex:pageBlock>
+      
+   <apex:actionFunction action="{!saveFolder}" name="saveFolderJS" onbeforedomupdate="closeWindow();" rerender="THEBLOCK" />
+  </apex:form>
+
+  <!-- <apex:relatedList list="Project_Team_Members"/>  -->
+</apex:page>

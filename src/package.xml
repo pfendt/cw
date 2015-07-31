@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CW_Folder_ControllerExt</members>
+        <members>CW_Folder_ControllerExtTest</members>
+        <members>CW_IMC_Campaign_ControllerExt</members>
+        <members>CW_IMC_Campaign_ControllerExtTest</members>
+        <members>CW_PTMTriggerClass</members>
+        <members>CW_PTMTriggerClassTest</members>
+        <members>CW_ProjectTeam_ControllerExt</members>
+        <members>CW_ProjectTeam_ControllerExtTest</members>
+        <members>CW_TeamMemberTriggerHandler</members>
+        <members>CW_TeamMemberTriggerHandlerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CW_ACCF_RelatedList</members>
+        <members>CW_ConfidentialFolder_BoxPage</members>
+        <members>CW_MCCF_RelatedList</members>
+        <members>CW_MarketingCampaign_BoxPage</members>
+        <members>CW_NewFolder</members>
+        <members>CW_NewFolderTeamMember</members>
+        <members>CW_SGCF_RelatedList</members>
+        <members>CW_STCF_RelatedList</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>CW_ProjectTeamMemberFolderTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>CW_Team_Member__c</members>
+        <members>ConfidentialFolder__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>ConfidentialFolder__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>ConfidentialFolder__c-ConfidentialFolder Layout2</members>
+        <members>IMC_Campaign_Activity__c-Campaign Activity Layout</members>
+        <members>IMC_Campaign_Stage__c-Campaign Stage Layout</members>
+        <members>IMC_Campaign_Stage__c-Campaign Stage Layout (Admin)</members>
+        <members>IMC_Campaign_Stage__c-Production Stage Layout</members>
+        <members>IMC_Campaign_Stage__c-Production Stage Layout (Admin)</members>
+        <members>IMC_Campaign_Step__c-Campaign Step Layout</members>
+        <members>IMC_Campaign_Step__c-Production Step Layout</members>
+        <members>IMC_Marketing_Campaign__c-Marketing Campaign Layout</members>
+        <members>IMC_Marketing_Campaign__c-Marketing Campaign Layout - Administrator</members>
+        <members>IMC_Marketing_Campaign__c-Marketing Campaign Layout - External</members>
+        <members>IMC_Marketing_Campaign__c-Marketing Campaign Layout - Internal</members>
+        <name>Layout</name>
+    </types>
+    <version>34.0</version>
+</Package>
